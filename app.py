@@ -953,6 +953,7 @@ else:
                     "type": "linear",
                     "position": "left",
                     "min": 0,
+                    "suggestedMax": 8,  # max gol assist + un po' di margine
                     "grid": {"color": "rgba(0,0,0,0.06)"},
                     "ticks": {"font": {"family": "Nunito", "size": 11, "weight": "700"}, "color": "#888", "stepSize": 1}
                 },
@@ -971,7 +972,7 @@ else:
             scales_dict = {
                 "x": {
                     "grid": {"color": "rgba(0,0,0,0.06)"},
-                    "ticks": {"font": {"family": "Nunito", "size": 11, "weight": "700"}, "color": "#888"}
+                    "ticks": {"font": {"family": "Nunito", "size": 11, "weight": "700"}, "color": "#888", "maxRotation": 45, "minRotation": 45}
                 },
                 "y": {
                     "min": y_min,
@@ -989,7 +990,7 @@ else:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>body{{margin:0;background:transparent;}} .wrap{{background:white;border:3px solid #1a1a2e;border-radius:14px;box-shadow:4px 4px 0px #1a1a2e;padding:22px 26px;}}</style>
 </head><body>
-<div class="wrap"><canvas id="chart" height="90"></canvas></div>
+<div class="wrap"><canvas id="chart" height="160"></canvas></div>
 <script>
 new Chart(document.getElementById('chart').getContext('2d'), {{
     type: 'line',
@@ -1006,4 +1007,4 @@ new Chart(document.getElementById('chart').getContext('2d'), {{
 }});
 </script></body></html>"""
 
-        components.html(plot_html, height=500)
+        components.html(plot_html, height=700)
