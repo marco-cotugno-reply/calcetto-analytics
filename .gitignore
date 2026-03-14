@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Ambienti virtuali
+venv/
+.env
+.venv/
+
+# Streamlit secrets (IMPORTANTE - non caricare mai su GitHub!)
+.streamlit/secrets.toml
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db

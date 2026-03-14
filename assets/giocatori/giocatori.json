@@ -1,0 +1,344 @@
+{
+  "giocatori": [
+    {
+      "nome": "tati",
+      "nome_display": "TATI",
+      "ruolo": "Difensore",
+      "avatar": "assets/avatar/tati.jpg",
+      "posizioni": {
+        "portiere": 0.05,
+        "difensore_centrale": 0.95,
+        "ala_sinistra": 0.2,
+        "ala_destra": 0.15,
+        "punta": 0.05
+      },
+      "attributi": {
+        "Attacco": 40,
+        "Difesa": 90,
+        "Tecnica": 60,
+        "Velocità": 80,
+        "Resistenza": 70
+      }
+    },
+    {
+      "nome": "bonomo",
+      "nome_display": "BONOMO",
+      "ruolo": "Attaccante",
+      "avatar": "assets/avatar/bonomo.jpg",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0.05,
+        "ala_sinistra": 0.3,
+        "ala_destra": 0.3,
+        "punta": 0.95
+      },
+      "attributi": {
+        "Attacco": 90,
+        "Difesa": 60,
+        "Tecnica": 70,
+        "Velocità": 80,
+        "Resistenza": 80
+      }
+    },
+    {
+      "nome": "dalo",
+      "nome_display": "DALO",
+      "ruolo": "Attaccante",
+      "avatar": "assets/avatar/dalo.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.7,
+        "ala_destra": 0.5,
+        "punta": 0.2
+      },
+      "attributi": {
+        "Attacco": 70,
+        "Difesa": 60,
+        "Tecnica": 65,
+        "Velocità": 70,
+        "Resistenza": 104
+      }
+    },
+    {
+      "nome": "manno",
+      "nome_display": "MANNO",
+      "ruolo": "Jolly",
+      "avatar": "assets/avatar/manno.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0.5,
+        "ala_sinistra": 0.5,
+        "ala_destra": 0.5,
+        "punta": 0.5
+      },
+      "attributi": {
+        "Attacco": 90,
+        "Difesa": 90,
+        "Tecnica": 90,
+        "Velocità": 80,
+        "Resistenza": 80
+      }
+    },
+    {
+      "nome": "tome",
+      "nome_display": "TOME",
+      "ruolo": "Ala",
+      "avatar": "assets/avatar/tome.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.7,
+        "ala_destra": 0.5,
+        "punta": 0
+      },
+      "attributi": {
+        "Attacco": 75,
+        "Difesa": 20,
+        "Tecnica": 80,
+        "Velocità": 70,
+        "Resistenza": 50
+      }
+    },
+    {
+      "nome": "sarci",
+      "nome_display": "SARCI",
+      "ruolo": "Attaccante",
+      "avatar": "assets/avatar/sarci.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.6,
+        "ala_destra": 0.6,
+        "punta": 0.7
+      },
+      "attributi": {
+        "Attacco": 70,
+        "Difesa": 30,
+        "Tecnica": 50,
+        "Velocità": 70,
+        "Resistenza": 70
+      }
+    },
+    {
+      "nome": "rossetti",
+      "nome_display": "ROSSETTI",
+      "ruolo": "Attaccante",
+      "avatar": "assets/avatar/rossetti.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.6,
+        "ala_destra": 0.3,
+        "punta": 0.7
+      },
+      "attributi": {
+        "Attacco": 85,
+        "Difesa": 20,
+        "Tecnica": 85,
+        "Velocità": 65,
+        "Resistenza": 25
+      }
+    },
+    {
+      "nome": "romeo",
+      "nome_display": "ROMEO",
+      "ruolo": "Difensore",
+      "avatar": "assets/avatar/romeo.png",
+      "posizioni": {
+        "portiere": 0.7,
+        "difensore_centrale": 0.7,
+        "ala_sinistra": 0,
+        "ala_destra": 0,
+        "punta": 0
+      },
+      "attributi": {
+        "Attacco": 70,
+        "Difesa": 90,
+        "Tecnica": 70,
+        "Velocità": 70,
+        "Resistenza": 60
+      }
+    },
+    {
+      "nome": "luca",
+      "nome_display": "LUCA",
+      "ruolo": "Difensore",
+      "avatar": "assets/avatar/luca.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0.7,
+        "ala_sinistra": 0.2,
+        "ala_destra": 0.7,
+        "punta": 0
+      },
+      "attributi": {
+        "Attacco": 80,
+        "Difesa": 80,
+        "Tecnica": 80,
+        "Velocità": 60,
+        "Resistenza": 75
+      }
+    },
+    {
+      "nome": "massimo",
+      "nome_display": "MASSIMO",
+      "ruolo": "Difensore",
+      "avatar": "assets/avatar/massimo.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.7,
+        "ala_destra": 0.7,
+        "punta": 0
+      },
+      "attributi": {
+        "Attacco": 70,
+        "Difesa": 80,
+        "Tecnica": 65,
+        "Velocità": 90,
+        "Resistenza": 100
+      }
+    },
+    {
+      "nome": "pizzo",
+      "nome_display": "PIZZO",
+      "ruolo": "Jolly",
+      "avatar": "assets/avatar/pizzo.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0.4,
+        "ala_sinistra": 0.4,
+        "ala_destra": 0.4,
+        "punta": 0.4
+      },
+      "attributi": {
+        "Attacco": 90,
+        "Difesa": 90,
+        "Tecnica": 100,
+        "Velocità": 90,
+        "Resistenza": 75
+      }
+    },
+    {
+      "nome": "sergio",
+      "nome_display": "SERGIO",
+      "ruolo": "Difensore",
+      "avatar": "assets/avatar/sergio.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0.8,
+        "ala_sinistra": 0.1,
+        "ala_destra": 0.2,
+        "punta": 0.1
+      },
+      "attributi": {
+        "Attacco": 80,
+        "Difesa": 80,
+        "Tecnica": 80,
+        "Velocità": 50,
+        "Resistenza": 65
+      }
+    },
+    {
+      "nome": "antonio",
+      "nome_display": "ANTONIO",
+      "ruolo": "Attaccante",
+      "avatar": "assets/avatar/antonio.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.4,
+        "ala_destra": 0.4,
+        "punta": 0.9
+      },
+      "attributi": {
+        "Attacco": 78,
+        "Difesa": 70,
+        "Tecnica": 65,
+        "Velocità": 100,
+        "Resistenza": 100
+      }
+    },
+    {
+      "nome": "fadi",
+      "nome_display": "FADI",
+      "ruolo": "Attaccante",
+      "avatar": "assets/avatar/fadi.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.4,
+        "ala_destra": 0.4,
+        "punta": 0.7
+      },
+      "attributi": {
+        "Attacco": 90,
+        "Difesa": 50,
+        "Tecnica": 85,
+        "Velocità": 80,
+        "Resistenza": 70
+      }
+    },
+    {
+      "nome": "Nick G.",
+      "nome_display": "NICK G.",
+      "ruolo": "Attaccante",
+      "avatar": "assets/avatar/nick_g.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0,
+        "ala_sinistra": 0.4,
+        "ala_destra": 0.4,
+        "punta": 0.7
+      },
+      "attributi": {
+        "Attacco": 60,
+        "Difesa": 45,
+        "Tecnica": 40,
+        "Velocità": 70,
+        "Resistenza": 65
+      }
+    },
+    {
+      "nome": "pino",
+      "nome_display": "PINO",
+      "ruolo": "Jolly",
+      "avatar": "assets/avatar/pino.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0.4,
+        "ala_sinistra": 0.4,
+        "ala_destra": 0.4,
+        "punta": 0.4
+      },
+      "attributi": {
+        "Attacco": 85,
+        "Difesa": 100,
+        "Tecnica": 90,
+        "Velocità": 90,
+        "Resistenza": 70
+      }
+    },
+    {
+      "nome": "adriano",
+      "nome_display": "ADRIANO",
+      "ruolo": "Difensore",
+      "avatar": "assets/avatar/adriano.png",
+      "posizioni": {
+        "portiere": 0,
+        "difensore_centrale": 0.7,
+        "ala_sinistra": 0.3,
+        "ala_destra": 0.3,
+        "punta": 0
+      },
+      "attributi": {
+        "Attacco": 40,
+        "Difesa": 90,
+        "Tecnica": 45,
+        "Velocità": 80,
+        "Resistenza": 90
+      }
+    }
+  ]
+}
